@@ -1,0 +1,61 @@
+
+@media  only screen and (max-width:450px) {
+    /* h&r */
+    .w450{
+        height:500px;
+    }
+    .b460{
+        bottom:460px;
+    }
+    .w700{
+        width:700px;
+    }
+}
+@media only screen and (max-width:390px){
+    /* h&r */
+    .b500{
+        bottom:520px;
+    }
+    .col{
+        display:flex;
+        flex-direction:column;
+        
+    }
+    .W-logo{
+        width:20px;
+        height:20px;
+    }
+    .W-logo1{
+        width:35px;
+        height:20px;
+    }
+
+}
+@media only screen and (max-width:640px){
+    .top{
+        position:sticky;
+        top:0;
+        background-color:#fff
+       }
+       .left{
+        position:sticky;
+        left:0;
+        background-color:white
+       }
+}
+
+
+/* .para{
+    display:none;
+} */
+
+/* h$r */
+
+@media(max-width:344px){
+    .btn-price{
+        display:flex;
+        flex-direction: column;
+        /* justify-content: s   tart; */
+        align-items: start;
+    }
+}
